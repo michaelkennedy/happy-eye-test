@@ -179,7 +179,7 @@ GIGO.get_url = function() {
     r2 = GIGO.gen_random();
   }
   GIGO.counter = GIGO.counter + 1;
-  return "http://" + r1 + "." + GIGO.base_host + GIGO.base_uri + "&testname=he&random=" + r2;
+  return "https://" + r1 + "." + GIGO.base_host + GIGO.base_uri + "&testname=he&random=" + r2;
 };
 
 GIGO.test_json = function() {
